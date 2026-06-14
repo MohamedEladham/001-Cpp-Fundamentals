@@ -23,6 +23,7 @@ int main()
 
     cout << "\n====================\n";
 
+    // Pointer points to emp
     Employee* ptr = &emp;
 
     // Update emp using ptr
