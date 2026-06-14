@@ -25,6 +25,11 @@ int main()
 
     Employee* ptr = &emp;
 
+    // Update emp using ptr
+    ptr->Name = "Ahmed";
+    ptr->Age = 20;
+    ptr->Salary = 1000;
+
     cout << "Using Pointer\n";
     cout << "Name   : " << ptr->Name << endl;
     cout << "Age    : " << ptr->Age << endl;
