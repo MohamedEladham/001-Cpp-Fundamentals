@@ -32,7 +32,9 @@ int main()
 
     cout << "\n====================\n";
 
-    cout << "Struct Address: " << ptr << endl;
+    // The same address
+    cout << "Struct Address by emp: " << &emp << endl;
+    cout << "Struct Address by ptr: " << ptr << endl;
 
     return 0;
 }
